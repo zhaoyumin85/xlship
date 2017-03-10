@@ -1,0 +1,8 @@
+.des_wrap{padding-left:1.2rem;}
+.des_wrap>li{text-align:left;height:4.3rem;line-height:4.2rem;font-size:1.5rem;}
+.des_wrap>li>span{display:block;margin-left:0.5rem;position:relative;}
+.des_wrap>li>span:after{
+    content:"";position:absolute;width:4rem;height:4rem;right:1rem;top:0;
+    background:url(../../images/ticker_big.png) 50% 50% no-repeat;background-size:1.8rem 1.8rem;
+}
+.des_wrap>li.on>span:after{background:url(../../images/ticker_big_on.png) 50% 50% no-repeat;background-size:1.8rem 1.8rem;}
