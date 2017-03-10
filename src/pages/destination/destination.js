@@ -2,13 +2,14 @@ import React,{Component} from 'react';
 import ReactDOM,{render} from 'react-dom';
 import './destination.css';
 import {Link,IndexLink,browserHistory} from 'react-router';
-import './data';
+import getAvailableDes from './data';
 class Destination extends Component{
     constructor(){
         super();
     }
     render(){
         console.log(this.props.location);
+        getAvailableDes('YUMIN');
         return(
             <ul className="des_wrap">
                 <li className="border b_btm "><span>深圳蛇口</span></li>
